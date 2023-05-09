@@ -7,4 +7,5 @@ const reducers = combineReducers({
 
 export default reducers;
 
-export type RootState = ReturnType<typeof reducers>;
+export type RootState = ReturnType<typeof reducers>;//take the function 
+//reducers and return whatever the type the function returns

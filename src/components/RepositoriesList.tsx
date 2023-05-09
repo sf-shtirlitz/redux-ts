@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { useTypedSelector } from '../hooks/useTypedSelector';
+import { useTypedSelector } from '../hooks/useTypedSelector';//provides us 
+//access to the state from the redux store
 import { useActions } from '../hooks/useActions';
 
 const RepositoriesList: React.FC = () => {
