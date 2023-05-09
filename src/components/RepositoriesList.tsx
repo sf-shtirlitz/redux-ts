@@ -4,7 +4,8 @@ import { useActions } from '../hooks/useActions';
 
 const RepositoriesList: React.FC = () => {
   const [term, setTerm] = useState('');
-  const { searchRepositories } = useActions();
+  const { searchRepositories } = useActions();//hook that 
+  //gives us access to all the action creators
   const { data, error, loading } = useTypedSelector(
     (state) => state.repositories
   );
